@@ -31,7 +31,7 @@ public class HinhChuNhat {
 
     // hàm xuất
     public static void xuat() {
-        System.out.println("chiều dài : " + cd +
+        System.out.print("chiều dài : " + cd +
                 "\nchiều rộng: " + cr +
                 "\nchu vi: " + tinhChuVi() +
                 "\ndiện tích: " + tinhDienTich());
