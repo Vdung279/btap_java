@@ -21,12 +21,12 @@ public class HinhChuNhat {
 
     //hàm tính chu vi
     public static double tinhChuVi() {
-        return (cd + cr) * 2;
+        return (cd + cr) * 2; // chiều dài + chiều rộng, tất cả nhân 2
     }
 
     //hàm tính diện tích
     public static double tinhDienTich() {
-        return cd * cr;
+        return cd * cr; // chiều rộng nhân chiều dài
     }
 
     // hàm xuất
